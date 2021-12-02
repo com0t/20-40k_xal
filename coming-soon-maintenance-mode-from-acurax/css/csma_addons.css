@@ -1,0 +1,152 @@
+#csma_addons_intro_holder
+{
+display: block;
+width: 98%;
+}
+.csma_addons_intro
+{
+background: white none repeat scroll 0 0;
+border: 1px solid #7cbac3;
+border-radius: 2px;
+box-sizing: border-box;
+cursor: pointer;
+display: block;
+float: left;
+font-family: arial;
+font-size: 12px;
+height: 420px;
+margin-bottom: 2%;
+margin-right: 2%;
+max-height: 420px;
+max-width: 100%;
+padding: 10px;
+text-align: center;
+width: 22%;
+}
+.csma_addons_intro > img {
+	border: 1px dotted lightgray;
+	width: 100%;
+}
+.csma_addons_intro h3 {
+	color: #3c87b3;
+	font-family: arial;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.csma_addons_intro > p {
+	font-family: Helvetica;
+	font-size: 12px;
+	height: 130px;
+	line-height: 18px;
+	text-align: justify;
+}
+.csma_addons_intro .csma_addon_button {
+	border: 1px solid black;
+	box-sizing: border-box;
+	color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6px;
+	text-decoration: none;
+	border-radius: 2px;
+	width: 85%;
+}
+.csma_addons_intro .csma_addon_button:hover {
+	background:#f8f8f8;
+}
+/* Addon Page*/
+.acx_csma_add_p_licen > a {
+  background-color: #0052db;
+  color: #e3e3e3;
+  padding: 10px;
+  cursor: pointer;
+}
+.acx_csma_add_p_licence_light_cvr {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  display:none;
+}
+.acx_csma_add_p_licence_light_cls
+{
+background:url(../images/close.png) no-repeat center center;
+width:40px;
+height:40px;
+position:absolute;
+right: 0;
+top: 0;
+cursor:pointer;
+}
+.acx_csma_add_p_licence_li_cn {
+  background-color: #fff;
+  left: 50%;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 370px;
+  padding:40px 25px;
+}
+.acx_csma_p_li_span {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.acx_csma_p_li_span input {
+  width: 100%;
+  padding:8px;
+}
+.acx_csma_add_p_li_cls {
+clear: both;
+color: #fff;
+cursor: pointer;
+float: right;
+margin-left: auto !important;
+margin-right: auto !important;
+text-align: center;
+width: 25%;
+}
+.acx_csma_pu_li_error {
+  color: red;
+  display: block;
+  margin-top: 10px;
+}
+.acx_csma_install_ignore {
+  float: right;
+  cursor:pointer;
+}
+.acx_csma_lic_del
+{
+	 background: url("../images/delete.png") no-repeat center center;
+}
+.acx_csma_lic_refresh
+{
+	 background: url("../images/refresh.png") no-repeat center center;
+}
+.ax_csma_action_icon {
+  background-size: 21px auto;
+  display: inline-block;
+  height: 21px;
+  margin: 0 5px;
+  vertical-align: middle;
+  width: 21px;
+  cursor: pointer;
+}
+.acx_csma_hide_refresh
+{
+	display:none;
+}
+.acx_csma_show_refresh
+{
+	display:inline-block;
+}
